@@ -2,6 +2,9 @@
 
 My custom presets for Easyeffects, an equaliser for Pipewire.
 
+- Use Bassman if you are a fan of heavy bass.
+- Use Verbaman if you love dreamy reverb
+
 ## Pre-Requisites
 Make sure the audio server for your Linux distro is [Pipewire](https://pipewire.org/) by default. If it's not, you can install it by following [@mikeroyal](https://github.com/mikeroyal)'s guide: [PipeWire-Guide](https://github.com/mikeroyal/PipeWire-Guide).
 
