@@ -1,8 +1,8 @@
 # Custom-Easyeffects-Presets
 
-My custom presets for Easyeffects, an equaliser for Pipewire.
+My custom presets for Easyeffects, an equaliser for Pipewire. I bet you wouldn't have ever believed Linux could output sound this good!
 
-- Use Bassman if you are a fan of heavy bass.
+- Use Bassman or Bassman Ultra if you are a fan of heavy bass.
 - Use Verbaman if you love dreamy reverb
 
 ## Pre-Requisites
@@ -45,5 +45,5 @@ Now you can play your media of choice and enjoy the custom presets!
 If you have any questions, need further assistance, or have any other suggestions feel free to reach out.
 
 Peace Out!
-
+#experiencetheinexperienced
 ---
