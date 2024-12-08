@@ -1,42 +1,41 @@
 {
     "output": {
         "bass_enhancer#0": {
-            "amount": 6.199999999999994,
-            "blend": 5.0,
+            "amount": 7.799999999999988,
+            "blend": 4.0,
             "bypass": false,
-            "floor": 114.0,
+            "floor": 119.0,
             "floor-active": true,
-            "harmonics": 9.700000000000001,
+            "harmonics": 10.0,
             "input-gain": 0.0,
             "output-gain": -2.2,
-            "scope": 242.0
+            "scope": 250.0
         },
         "bass_loudness#0": {
             "bypass": false,
             "input-gain": 0.0,
-            "link": -7.2999999999999945,
-            "loudness": -1.899999999999999,
-            "output": -11.600000000000009,
+            "link": -7.899999999999992,
+            "loudness": -2.099999999999999,
+            "output": -12.900000000000004,
             "output-gain": 0.0
         },
         "blocklist": [],
         "exciter#0": {
-            "amount": 2.2000000000000006,
+            "amount": 2.9000000000000012,
             "blend": 3.0,
             "bypass": false,
-            "ceil": 19990.0,
+            "ceil": 19981.0,
             "ceil-active": true,
-            "harmonics": 7.100000000000005,
+            "harmonics": 7.000000000000005,
             "input-gain": 0.0,
             "output-gain": 0.0,
-            "scope": 7532.0
+            "scope": 7537.0
         },
         "plugins_order": [
             "bass_enhancer#0",
             "bass_loudness#0",
             "exciter#0",
-            "reverb#0",
-            "stereo_tools#0"
+            "reverb#0"
         ],
         "reverb#0": {
             "amount": -11.400000000000002,
@@ -51,27 +50,6 @@
             "predelay": 0.0,
             "room-size": "Large/smooth",
             "treble-cut": 5001.0
-        },
-        "stereo_tools#0": {
-            "balance-in": -0.12999999999999998,
-            "balance-out": 0.0,
-            "bypass": false,
-            "delay": 0.0,
-            "input-gain": 0.0,
-            "middle-level": 0.7999999999999999,
-            "middle-panorama": 1.0,
-            "mode": "LR > LR (Stereo Default)",
-            "mutel": false,
-            "muter": false,
-            "output-gain": 0.0,
-            "phasel": false,
-            "phaser": false,
-            "sc-level": 99.75999999999982,
-            "side-balance": 0.019999999999999997,
-            "side-level": 0.5,
-            "softclip": false,
-            "stereo-base": 0.0,
-            "stereo-phase": 0.0
         }
     }
 }
