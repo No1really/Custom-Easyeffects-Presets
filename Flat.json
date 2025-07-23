@@ -1,0 +1,55 @@
+{
+    "output": {
+        "bass_enhancer#0": {
+            "amount": 6.299999999999994,
+            "blend": 2.0,
+            "bypass": true,
+            "floor": 120.0,
+            "floor-active": true,
+            "harmonics": 7.200000000000005,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "scope": 60.0
+        },
+        "bass_loudness#0": {
+            "bypass": true,
+            "input-gain": 0.0,
+            "link": -7.19999999999999,
+            "loudness": -2.1999999999999993,
+            "output": -9.399999999999988,
+            "output-gain": 0.0
+        },
+        "blocklist": [],
+        "exciter#0": {
+            "amount": 0.7999999999999997,
+            "blend": 0.0,
+            "bypass": true,
+            "ceil": 15783.0,
+            "ceil-active": true,
+            "harmonics": 6.500000000000007,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "scope": 7525.0
+        },
+        "plugins_order": [
+            "bass_enhancer#0",
+            "bass_loudness#0",
+            "exciter#0",
+            "reverb#0"
+        ],
+        "reverb#0": {
+            "amount": -11.400000000000002,
+            "bass-cut": 298.0,
+            "bypass": true,
+            "decay-time": 1.5,
+            "diffusion": 0.5800000000000001,
+            "dry": 0.30000000000000004,
+            "hf-damp": 4975.0,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "predelay": 0.0,
+            "room-size": "Large/smooth",
+            "treble-cut": 5001.0
+        }
+    }
+}
