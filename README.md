@@ -19,7 +19,7 @@
 | **🔥 Bassman** | Bass Lovers | Rich, punchy bass for electronic music and hip-hop |
 | **⚡ Bassman Ultra** | Extreme Bass | Maximum bass impact for the ultimate low-end experience |
 | **🌙 Verbaman** | Ambient & Vocals | Dreamy reverb effects perfect for vocals and atmospheric music |
-| **📊 FLAT** | Purists & Reference | Clean, uncolored sound for accurate audio reproduction |
+| **📊 Flat** | Purists & Reference | Clean, uncolored sound for accurate audio reproduction |
 
 ---
 
