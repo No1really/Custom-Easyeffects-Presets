@@ -1,0 +1,109 @@
+{
+    "output": {
+        "bass_enhancer#0": {
+            "amount": 8.799999999999985,
+            "blend": 3.0,
+            "bypass": false,
+            "floor": 92.0,
+            "floor-active": true,
+            "harmonics": 7.8000000000000025,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "scope": 68.0
+        },
+        "bass_loudness#0": {
+            "bypass": false,
+            "input-gain": 0.0,
+            "link": -6.099999999999994,
+            "loudness": -1.2999999999999985,
+            "output": -12.799999999999976,
+            "output-gain": 0.0
+        },
+        "blocklist": [],
+        "compressor#0": {
+            "attack": 18.76,
+            "boost-amount": 6.0,
+            "boost-threshold": -72.0,
+            "bypass": false,
+            "dry": -100.0,
+            "hpf-frequency": 10.0,
+            "hpf-mode": "off",
+            "input-gain": 0.0,
+            "knee": -5.800000000000001,
+            "lpf-frequency": 20000.0,
+            "lpf-mode": "off",
+            "makeup": -0.4,
+            "mode": "Downward",
+            "output-gain": 0.0,
+            "ratio": 3.9700000000000006,
+            "release": 98.96,
+            "release-threshold": -100.0,
+            "sidechain": {
+                "lookahead": 0.0,
+                "mode": "RMS",
+                "preamp": -2.7755575615628914e-17,
+                "reactivity": 10.03,
+                "source": "Middle",
+                "stereo-split-source": "Left/Right",
+                "type": "Feed-forward"
+            },
+            "stereo-split": true,
+            "threshold": -11.300000000000002,
+            "wet": 0.20000000000000004
+        },
+        "exciter#0": {
+            "amount": 0.3999999999999998,
+            "blend": 3.0,
+            "bypass": false,
+            "ceil": 15783.0,
+            "ceil-active": true,
+            "harmonics": 5.80000000000001,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "scope": 7525.0
+        },
+        "plugins_order": [
+            "bass_enhancer#0",
+            "bass_loudness#0",
+            "exciter#0",
+            "reverb#0",
+            "stereo_tools#0",
+            "compressor#0"
+        ],
+        "reverb#0": {
+            "amount": -11.400000000000002,
+            "bass-cut": 298.0,
+            "bypass": true,
+            "decay-time": 1.5,
+            "diffusion": 0.5800000000000001,
+            "dry": 0.30000000000000004,
+            "hf-damp": 4975.0,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "predelay": 0.0,
+            "room-size": "Large/smooth",
+            "treble-cut": 5001.0
+        },
+        "stereo_tools#0": {
+            "balance-in": 0.05,
+            "balance-out": 0.02,
+            "bypass": false,
+            "delay": 0.01,
+            "input-gain": 0.0,
+            "middle-level": 1.0999999999999999,
+            "middle-panorama": 0.16,
+            "mode": "LR > RL (Stereo Flip Channels)",
+            "mutel": false,
+            "muter": false,
+            "output-gain": 0.0,
+            "phasel": false,
+            "phaser": true,
+            "sc-level": 1.09,
+            "side-balance": -0.05000000000000001,
+            "side-level": 0.7,
+            "softclip": false,
+            "stereo-base": 0.02,
+            "stereo-phase": 0.02
+        }
+    }
+}
