@@ -131,7 +131,7 @@ Support for Windows (Equalizer APO and others) is planned. Drop a ⭐ to get not
 - Enjoy the sound? Star ⭐ and spread the word!
 
 <div align="center">
-  <img width="120" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDBnNTI3eTZoemxzNnN0dTZmZm1hZnUzNHkyamxoOTY2cmo4ZXEzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41lZok4O3z0Mna5q/giphy.gif" />
+    <img width="120" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmk4NmQ0aW9tazFvMmhybGlwaXl1ZWpnNGdpYjNveGxleGFlMXRodiZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/VIKa3CjZDCoymNcBY5/giphy.gif" alt="dancing penguin" />
   <br>
   <b>🔊 Made for the Linux audio community. Crafted by Kō. Unlock your sound. 🔊</b>
 </div>
@@ -146,3 +146,4 @@ No tracking. No bloat. Just beautiful sound.
 <sub align="center">
 <kbd>Hint: For a secret boost of inspiration, listen to your favorite song after switching presets. You might hear something you've never noticed before.</kbd>
 </sub>
+
