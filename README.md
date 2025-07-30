@@ -7,7 +7,7 @@
 </p>
 
 <div align="center">
-  <img width="190" src="https://media.giphy.com/media/xUPGcpQEQ0LIcFv2is/giphy.gif" alt="soundwaves aesthetic"/>
+  <img width="190" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeThlYzc3bm1ienhxbzBnc2o3d2kxaDY5MmRkd3g3dGM0NHIxMHp2NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4oMoIbIQrvCjm/giphy.gif" alt="soundwaves aesthetic"/>
 </div>
 
 <div align="center"><strong>
