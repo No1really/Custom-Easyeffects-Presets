@@ -1,107 +1,93 @@
-# 🎵 Custom EasyEffects Presets
+# 🎵 Kō's Soundpack: EasyEffects Audio Presets
 
-> **Transform your Linux audio experience with professional-grade sound presets**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PipeWire](https://img.shields.io/badge/Audio-PipeWire-blue.svg)](https://pipewire.org/)
-[![EasyEffects](https://img.shields.io/badge/App-EasyEffects-green.svg)](https://github.com/wwmm/easyeffects)
+  
+  
+  
 
----
 
-## ✨ Experience Audio Like Never Before
 
-**Who said Linux can't deliver audiophile-quality sound?** These custom presets will change your mind forever! Each preset is carefully crafted to enhance different aspects of your audio experience.
+✨ Make your Linux sound unforgettable with pro-grade, import-and-go presets for EasyEffects. Pure. Punchy. Zero nonsense. ✨
 
-### 🎧 Available Presets
 
-| Preset | Best For | Description |
-|--------|----------|-------------|
-| **🔥 Bassman** | Bass Lovers | Rich, punchy bass for electronic music and hip-hop |
-| **⚡ Bassman Ultra** | Extreme Bass | Maximum bass impact for the ultimate low-end experience |
-| **🌙 Verbaman** | Ambient & Vocals | Dreamy reverb effects perfect for vocals and atmospheric music |
-| **📊 Flat** | Purists & Reference | Clean, uncolored sound for accurate audio reproduction |
+## ⚡️ At a Glance
 
----
+| 🎛️ Preset            | 🔊 Best For                  | ✨ Unique Features                        |
+|----------------------|-----------------------------|-------------------------------------------|
+| **Kō's-Signature**   | All genres, daily listening | Balanced detail, stereo width, clarity    |
+| **Bassman Ultra**    | EDM, hip-hop, bass lovers   | Maximum sub-bass, clean power, no mud     |
+| **Bassman**          | Modern, pop, rock           | Energetic low-end, keeps mids clear       |
+| **Verbaman**         | Ambient, vocals, jazz       | Spacious 3D reverb, musical airiness      |
+| **Flat**             | Reference, studio, purists  | True-to-source, zero coloration           |
+| **Tangzu Wan’er**    | IEMs, V-shaped tuning fans  | Heavy bass, sparkly treble, wide stereo   |
+
+## 📂 Preset Files
+
+All presets are `.json` files for EasyEffects (tested with v7+).
+
+- `Kō-s-Signature.json`
+- `Bassman-Ultra.json`
+- `Bassman.json`
+- `Verbaman.json`
+- `Flat.json`
+- `Tangzu-Wan-er.json` ← **New!**
+
+## 🚦 Requirements
+
+- **Linux** (any distribution with PipeWire recommended)
+- **EasyEffects** via Flatpak:  
+  `flatpak install flathub com.github.wwmm.easyeffects`
 
 ## 🚀 Quick Start
 
-### Prerequisites
+1. **Open EasyEffects**
+2. Go to **Presets → Import** (folder icon)
+3. Select a `.json` file and hit **Load**
+4. Enjoy instantly upgraded sound!
 
-Before diving into the audio magic, make sure you have:
+## 🔎 Preset Description
 
-- **PipeWire** as your audio server
-- **Flatpak** installed on your system
+| Preset              | Bass Enhancer        | Loudness      | Exciter           | Reverb         | Stereo Tools                | Compressor           | Notes                                                 |
+|---------------------|----------------------|---------------|-------------------|----------------|-----------------------------|----------------------|-------------------------------------------------------|
+| **Kō's-Signature**  | Moderate, musical    | Subtle, tight | Crisp, openness   | Off            | Advanced width & focus      | Transparent          | Great all-round; clarity-focused                      |
+| **Bassman Ultra**   | Aggressive (7.8/4)   | Deep, sub-punch| Pronounced "air"  | Off            | Standard                    | Subtle/bypassed      | Max sub-bass, thick yet clean                         |
+| **Bassman**         | Bold (6.3/2)         | Moderate      | Subtle            | Off            | Standard                    | Subtle/bypassed      | Bass energy without muddying mids                     |
+| **Verbaman**        | Bold                 | Moderate      | Subtle            | On, lush, smooth| Standard                   | Subtle/bypassed      | Same as Bassman with spacious reverb enabled           |
+| **Flat**            | Bypassed             | Bypassed      | Bypassed          | Off            | Bypassed                    | Bypassed             | Neutral, for reference or A/B comparison               |
+| **Tangzu Wan’er**   | Heavy (8.8/3), lots of harmonics | -6.1 link, -1.3 loudness | Light touch (0.4/3), airy  | Off (bypassed)    | Wide, balance tweaks           | Downward, stereo split | Custom V-shaped: strong bass, sparkly highs, clarity  |
 
-> **💡 New to PipeWire?** Check out [@mikeroyal's comprehensive guide](https://github.com/mikeroyal/PipeWire-Guide)  
-> **Need Flatpak?** Visit [flatpak.org/setup](https://flatpak.org/setup/) for installation instructions
+## 🎧 Usage Guide
 
-### Installation
+| Scenario               | Preset           |
+|------------------------|------------------|
+| Universal listening    | Kō's-Signature   |
+| Max bass/party         | Bassman Ultra    |
+| Balanced bass          | Bassman          |
+| Spacious/atmospheric   | Verbaman         |
+| Studio reference       | Flat             |
+| Tangzu Wan’er IEM user | Tangzu Wan’er    |
 
-#### 1. Install EasyEffects
+## 💡 Tips
 
-```bash
-flatpak install flathub com.github.wwmm.easyeffects
-```
+- **Try presets by genre:** Ultra for EDM, Signature for all-round, Verbaman for vocals/soundtracks, Tangzu Wan’er for V-shaped fun on IEMs.
+- **Tweak if needed:** Presets are starting points, not limits.
+- **Flat** for uncolored reference work.
 
-#### 2. Import Your Chosen Preset
+## 🧑💻 Contributing
 
-1. **Launch EasyEffects**
-2. **Click "Presets"** in the top-left corner
-3. **Select "Import a Preset"** from the dropdown
-4. **Choose your preset file** and click "Open"
-5. **Click "Load"** next to the preset name to activate it
+1. Fork this repo
+2. Add/tweak your preset
+3. Make sure it works on EasyEffects + PipeWire
+4. Submit a PR
 
-#### 3. Configure for Persistent Audio Enhancement
+## 🗨️ Feedback & Support
 
-For the best experience, configure EasyEffects to run automatically:
+- Feedback? [Open an Issue](../../issues)
+- Love it? ⭐ the repo!
 
-1. **Open Preferences** (three dots → Preferences)
-2. **Under "General", enable:**
-   - ✅ Launch service at system startup
-   - ✅ Process all outputs
-   - ✅ Process all inputs
-3. **Disable:**
-   - ❌ Shutdown on window closing
-4. **Keep default values:**
-   - Inactivity timeout: `34 seconds`
-   - Update interval: `50 ms`
 
----
+🔊 Made for the Linux audio community. Crafted by Kō. Unlock your sound. 🔊
 
-## 🎯 Usage Tips
 
-- **Try different presets** with various music genres to find your perfect match
-- **Bassman series** works exceptionally well with electronic, hip-hop, and rock music
-- **Verbaman** shines with vocals, jazz, and ambient soundtracks
-- **Combine with hardware** for an even better experience
-
----
-
-## 🤝 Contributing
-
-Got ideas for new presets? Found the perfect settings for a specific genre? Contributions are welcome!
-
-1. Fork the repository
-2. Create your preset
-3. Test thoroughly with different audio sources
-4. Submit a pull request with a clear description
-
----
-
-## 📧 Support & Feedback
-
-Questions? Suggestions? Need help getting started?
-
-**Feel free to reach out!** Open an issue or start a discussion - I'm here to help you achieve audio perfection on Linux.
-
----
-
-## 🏷️ Tags
-
-`#linux-audio` `#pipewire` `#easyeffects` `#audiophile` `#presets` `#experiencetheunexperienced`
-
----
-
-<div align="center">
-  <strong>🎵 Made with ❤️ for the Linux audio community 🎵</strong>
-</div>
+**MIT Licensed**  
+No tracking. No bloat. Just beautiful sound.
