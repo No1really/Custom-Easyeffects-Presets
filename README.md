@@ -1,4 +1,4 @@
-# 🎶 <div align="center"><b>Kō's Soundpack: EasyEffects Audio Presets</b> <br> <sup><kbd>for audiophiles • for dreamers • for rebels</kbd></sup></div>
+# 🎶 <div align="center"><b>Kō's Soundpack - Audio Presets</b> <br> <sup><kbd>for audiophiles • for dreamers • for rebels</kbd></sup></div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" />
