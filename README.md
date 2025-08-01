@@ -1,181 +1,149 @@
-# 🟡 OneClick CLI — For Tinkerers -  For Speed Demons -  For System Rebels
+# 🎶 <div align="center"><b>Kō's Soundpack - Audio Presets</b> <br> <sup><kbd>for audiophiles • for dreamers • for rebels</kbd></sup></div>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" />
+  <img src="https://img.shields.io/badge/Audio-PipeWire-blue.svg" alt="PipeWire" />
+  <img src="https://img.shields.io/badge/App-EasyEffects-green.svg" alt="EasyEffects" />
+</p>
 
-  
-  
-  
-  
+<div align="center">
+  <img width="190" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeThlYzc3bm1ienhxbzBnc2o3d2kxaDY5MmRkd3g3dGM0NHIxMHp2NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4oMoIbIQrvCjm/giphy.gif" alt="soundwaves aesthetic"/>
+</div>
 
+<div align="center"><strong>
+✨ <span style="animation: rainbow 4s infinite linear;">Make your Linux sound unforgettable</span> with pro-grade, handcrafted presets for <a href="https://github.com/wwmm/easyeffects">EasyEffects</a>. Pure. Punchy. Zero nonsense. ✨
+</strong></div>
 
+---
 
-  
+<details>
+  <summary><b>👾 Secret: Press "O" for Octopus mode</b></summary>
+  <blockquote>Just kidding. But imagine what we could do if there was an octopus EQ.</blockquote>
+</details>
 
+---
 
+## 🐧 **Linux: EasyEffects Presets**
 
-✨ Where system power meets arcade playfulness. All-in-one, minimalist, and unapologetically fun. ✨
-🕹️ Hint: Type waka for bonus arcade vibes.
-The 👻s are optional, but the 💪 productivity gains are real.
+| Preset             | Description                                                                                                                | Best Use Cases                                    |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| **Kō’s Signature** | Spatial, punchy, detailed. Stereo-flipped and lightly compressed for a wide yet focused image. Clean, dynamic, textured.<br>:sparkles: | All genres, daily listening                       |
+| **Flat**           | Purely neutral. Zero enhancement. Perfect for reference, monitoring, or stacking your own effects.                         | Reference, mixing, mastering                      |
+| **Bassman**        | Tight, controlled bass with natural warmth. Delivers roundness and depth — never muddy.<br>Try it on rainy days 🌧️               | Pop, rock, general bass boost                     |
+| **Bassman Ultra**  | Massive sub-bass and elevated harmonics.<br>Shake your floor — but keep your neighbors cool. 🦑                              | EDM, hip-hop, energetic listening                 |
+| **Verbaman**       | Spacious and soft, with atmospheric reverb.<br>Catch reverb tails like shooting stars. 🌠                                   | Chill, lo-fi, ambient, vocals                     |
+| **Tangzu Wan’er**  | V-shaped and lively: deep, heavy bass with sparkly highs + wide stereo.<br>IEMs never sounded so fun. 👟                    | Tangzu Wan’er IEMs, V-shaped tuning, energetic listening |
 
+**Preset Files:**  
+- `Kō-s-Signature.json`
+- `Flat.json`
+- `Bassman.json`
+- `Bassman-Ultra.json`
+- `Verbaman.json`
+- `Tangzu-Wan-er.json`
 
-
-
-  👾 Secret: Try waka or ghost more than once...
-  The ghosts aren’t always what they seem. Arcade highscores are totally a thing.
-    
-  
-
-
-## 🔥 **Arch Goes Arcade — The Modules**
-
-| Menu / Module        | Aliases & Flags                                         | Core Actions                                                        |
-|----------------------|---------------------------------------------------------|---------------------------------------------------------------------|
-| **System Updates**   | [`oc-update`](#), [`hungry`](#), -u        | Updates (core, AUR), cleans orphans/cache, trouble-free sync        |
-| **Shell Config**     | [`power-pellet`](#), -s                    | Instantly switch/setup Zsh/Bash/Fish, OhMyZsh, starship, backup!    |
-| **Maintenance**      | [`oc-maintain`](#), -m                     | Full scan, log clean, disk check, perm repair                       |
-| **Performance**      | [`oc-pack`](#), -p                         | Mirrors, swappiness, zram, AUR helpers, fast tweaks                 |
-| **Pac-Man Arcade**   | [`waka-waka`](#), [`waka`](#), [`ghost`](#), -g | Embedded mini-game, secret flags & retro surges                     |
-| **System Info**      | [`oc-info`](#), -i                         | Health, RAM, CPU, disks, uptime — all in one glance                 |
-| **Configuration**    | [`oc-config`](#), -c                       | Instantly edit/tweak OneClick settings and modules                  |
+---
 
 ## 🚦 **System Requirements**
 
-- 🖥️ **Arch Linux** (or compatible)
-- 🧩 **git**, **curl**
-- 🐚 **bash**, **zsh**, or **fish**
-- ✨ _No extra dependencies. Minimalistic always._
+- **Linux** (any distribution, PipeWire recommended)
+- **EasyEffects** (v7+ preferred)  
+  _Install via Flatpak:_  
+  `flatpak install flathub com.github.wwmm.easyeffects`
+
+---
 
 ## 🚀 **Quick Start**
+<details open>
+<summary><b>How to Experience the Magic ✨</b></summary>
 
+1. **Open EasyEffects**
+2. Go to **Presets → Import** (🗂️)
+3. Select your favorite `.json` file (pro tip: start with Signature)
+4. Hit **Load**, turn your music up, and see if your cat notices
 
-⚡ Get Going in 3 Moves:
+<blockquote>
+<span style="color:#43e97b;">Tip:</span> Combine with <i>RGB keyboard</i> for instant “pro” vibes.
+</blockquote>
+</details>
 
-1. **Install**
-    ```bash
-    git clone https://github.com/No1really/OneClick-For-Linux.git
-    cd OneClick-For-Linux
-    bash setup-oneclick
-    ```
-2. **Run the Arcade**
-    ```bash
-    oneclick-cli      # Or just 'oc'
-    ```
-3. **Try a Direct Command**
-    ```bash
-    oc-update           # 🔄 Full update, bloat-busting!
-    oc-maintain         # 🧹 System spa day
-    power-pellet        # 🚀 Shell upgrades, lightning-fast
-    waka                # 🕹️ Playful surprise
-    chomp neofetch      # 🍔 Pac it!
-    hungry              # 🍕 Full update – hangry mode
-    ```
+---
 
-Tip:  
-Every config is auto-backed-up. Menus are always ASCII. Shell’s all yours.
+## 🔮 **Preset Table (Click to expand for nerd stats!)**
 
+<details>
+<summary><b>Chain Details</b> <kbd>(for EQ sorcerers)</kbd></summary>
 
+| Preset             | Bass Enhancer      | Loudness      | Exciter           | Reverb         | Stereo Tools        | Compressor       | Notes                                        |
+|--------------------|--------------------|---------------|-------------------|----------------|---------------------|------------------|----------------------------------------------|
+| **Kō’s Signature** | Moderate, musical  | Subtle, tight | Crisp, openness   | Off            | Advanced width      | Transparent      | Wide, punchy default chain                   |
+| **Flat**           | Bypassed           | Bypassed      | Bypassed          | Off            | Bypassed            | Bypassed         | True neutral                                 |
+| **Bassman**        | Bold (6.3/2)       | Moderate      | Subtle            | Off            | Standard            | Subtle/bypassed   | Focused bass, never muddy                    |
+| **Bassman Ultra**  | Aggressive (7.8/4) | Deep sub-punch| Pronounced "air"  | Off            | Standard            | Subtle/bypassed   | Heaviest slam                                |
+| **Verbaman**       | Bold               | Moderate      | Subtle            | On, lush, smooth| Standard           | Subtle/bypassed   | Spacious: chill, lo-fi, vox                  |
+| **Tangzu Wan’er**  | Heavy (8.8/3)      | -6.1 link,<br/>-1.3 loudness | Airy (0.4/3)   | Off                 | Wide, balanced    | Downward, stereo split | Best for fun V-shape, clarity, sparkle       |
+</details>
 
-## 🕵️♂️ **Aliases & Flags Cheat Sheet**
+---
 
-| Alias / Flag           | What It Does                                      |
-|------------------------|---------------------------------------------------|
-| oc-update, -u      | System update (core, AUR, clean)            |
-| hungry              | Full upgrade, snacky output                 |
-| oc-maintain, -m     | Maintenance, logs, cache, disk health        |
-| oc-info, -i         | Live system info                            |
-| oc-pack, -p         | Packages, performance, mirrors               |
-| oc-config, -c       | Edit your config files                      |
-| power-pellet, -s    | Shell setup/upgrade wizard                   |
-| waka, waka-waka, ghost, -g | 🤫 Easter eggs, games, surprises      |
-| chomp &lt;pkg&gt;   | Install any package, Pac-Man style           |
+## 💎 **Aesthetic FAQ (and Easter Eggs!)**
 
-```bash
-# Fast actions:
-oneclick-cli -u    # ⚡ Update everything
-oneclick-cli -m    # 🔧 Maintenance
-oneclick-cli -g    # 🕹️ Arcade mode
-```
+<details>
+<summary><b>👁️ Hidden Visuals & Subtle Bling</b></summary>
 
+- GitHub dark mode? The energy bar glows.
+- Emoji combos: Try ⚡ after any preset for instant placebo effect.  
+- Long press on import?<br>Nothing happens — but you might find enlightenment.
+- Bonus: If you see this on a Friday, you get +2dB happiness.
+- Fact: The Flat preset is as flat as my attempts at humor.
+</details>
 
- ## 🎨 **Menu Style Preview**
+---
 
+## 💡 Tips  
 
+- Try presets by genre:  
+  _Ultra for EDM, Signature for everything, Verbaman for space & vocals, Tangzu Wan’er for IEM fun._
+- Presets = flexible starting points — tweak to taste.
+- For true reference, switch to **Flat** and A/B your chain.
 
-```
-    🔸 ONECLICK CLI 🔸
- ╔════════════════════╗
- ║ 1. System Updates  ║    oc-update   hungry
- ║ 2. Shell Config    ║    power-pellet
- ║ 3. Maintenance     ║    oc-maintain
- ║ 4. Performance     ║    oc-pack
- ║ 5. Pac-Man Arcade  ║    waka-waka   waka
- ║ 6. System Info     ║    oc-info
- ║ 7. Exit            ║
- ╚════════════════════╝
-```
+---
 
+## 🪟 **Windows Presets**
 
+**Coming Soon!**  
+Support for Windows (Equalizer APO and others) is planned. Drop a ⭐ to get notified!
 
-_Smooth. Playful. Secretly unstoppable._
-
-## 🤫 **Hidden Vibes & Easter Magic**
-
-
-👻 Ghosts, Snacks & More
-
-- Run waka three times for a surprise!  
-- There’s a chomp for every taste 😋
-- Arcade highscores? If you find them, you know.
-- ghost is mysterious for a reason.
-- hungry leaves snacks in your logs sometimes 🍥
-- Menus shift color at midnight 🌈
-- ASCII banners morph the longer you use it
-- More optimization = more Pac-Men show up
-- No tracking, but the system always cheers for you!
-  
-  
-
-
-## 💡 **Pro Tips**
-
-- OneClick ≠ less power: customize anything you want.
-- Want share-worthy terminals? Menu loves screenshots.
-- `power-pellet` = full shell upgrade wizard — everything’s backed up.
-- Modular scripts are easy to hack; all changes are safely reversible.
+---
 
 ## 🧑💻 **Contribute**
 
-1. Fork, break, send a fun pull request 🤓
-2. Invent new modules, aliases, or arcade surprises
-3. Score hidden achievements for creative PRs
+1. Fork this repo
+2. Add or tweak a preset
+3. Test on EasyEffects + PipeWire (Linux)
+4. Open a Pull Request
+
+---
 
 ## 🗨️ **Feedback & Support**
 
-- Issues, ideas, or rants? [Start a Discussion](https://github.com/No1Really/oneclick-cli/discussions)
-- Enjoyed the arcade? ⭐ [Star it!](https://github.com/No1Really/oneclick-cli/stargazers)
-
-
-  
-  
-  🟡 OneClick: Because system care should be legendary. WAKA-WAKA!
-
------
+- Ideas or improvements? [Open an Issue](../../issues)
+- Enjoy the sound? Star ⭐ and spread the word!
 
 <div align="center">
-  <img width="120" src="https://media.giphy.com/media/111ebonMs90YLu/giphy.gif" alt="smiling heart"/>
+    <img width="120" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmk4NmQ0aW9tazFvMmhybGlwaXl1ZWpnNGdpYjNveGxleGFlMXRodiZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/VIKa3CjZDCoymNcBY5/giphy.gif" alt="dancing penguin" />
   <br>
-  <b>Need help? Stuck? <br>
-  <span style="color:#ffd700;">You're not alone — we're here for you!</span></b>
-  <br><br>
-  <em>
-  Whether you’re reporting an issue, suggesting an upgrade, or just want to say hi:  
-  Your feedback keeps this project ticking.<br>
-  Open an <a href="https://github.com/No1Really/oneclick-cli/issues">Issue</a>, join a <a href="https://github.com/No1Really/oneclick-cli/discussions">Discussion</a>, or give it a <a href="https://github.com/No1Really/oneclick-cli/stargazers">⭐</a> if you smiled.
-  </em>
-  <br><br>
-  <strong>
-  <span style="font-size:1.25em;">Made with 💛 from Kolkata, India — for rebels, tinkerers, and system legends everywhere.</span>
-  </strong>
-  <br>
+  <b>🔊 Made for the Linux audio community. Crafted by Kō. Unlock your sound. 🔊</b>
 </div>
 
 ---
+
+**MIT Licensed**  
+No tracking. No bloat. Just beautiful sound.
+
+---
+
+<sub align="center">
+<kbd>Hint: For a secret boost of inspiration, listen to your favorite song after switching presets. You might hear something you've never noticed before.</kbd>
+</sub>
+
