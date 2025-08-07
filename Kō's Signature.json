@@ -85,7 +85,7 @@
             "treble-cut": 5001.0
         },
         "stereo_tools#0": {
-            "balance-in": 0.05,
+            "balance-in": 0.0,
             "balance-out": 0.02,
             "bypass": false,
             "delay": 0.01,
